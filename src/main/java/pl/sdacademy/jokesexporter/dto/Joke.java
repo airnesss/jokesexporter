@@ -17,3 +17,4 @@ public class Joke {
     @NotNull
     JokeValue value;
 }
+

@@ -1,5 +1,6 @@
 package pl.sdacademy.jokesexporter.controler;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import pl.sdacademy.jokesexporter.dto.Joke;
@@ -23,9 +24,6 @@ public class JokesRestControler {
         return "ok";
     }
 
-    @GetMapping("/joke")
-    public Joke getJoke(PathVariable Integer) {
-        return null;
-    }
+
 
 }
